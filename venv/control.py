@@ -7,8 +7,6 @@ import xml.etree.ElementTree as ET
 import random
 import torch.nn.functional as F
 
-buffer_limit = 50000
-batch_size = 32
 gamma = 0.99
 
 class Qnet(nn.Module):
