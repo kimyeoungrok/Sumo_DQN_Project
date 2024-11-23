@@ -138,7 +138,7 @@ def main():
   sumocfg_dir = "C:/sumo_img/case_a/case_a.sumocfg"
   route_dir = "C:/sumo_img/case_a/route.rou.xml"
 
-  q = Qnet(18,2) # 8 + 7 + 1
+  q = Qnet(18,2) 
   optimizer = optim.Adam(q.parameters(), lr=0.00025)
 
   for episode in range(100):
